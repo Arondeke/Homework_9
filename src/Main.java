@@ -60,6 +60,7 @@ public class Main {
     }
 
     public static void Task4() {
+        int newVar = 0; //commit for new push and merge branches
         System.out.println("Задача 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
