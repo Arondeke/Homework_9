@@ -32,8 +32,8 @@ public class Main {
     public static void Task2() {
         System.out.println("Задача 2");
         int[] arr = generateRandomArray();
-        int min = 0;
-        int max = 0;
+        int min = arr[0];
+        int max = arr [0];
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
@@ -54,8 +54,8 @@ public class Main {
 
         for (int i = 0; i < arr.length - 1; i++) {
             sum = sum + i;
-            sumAvg = sum / arr.length;
         }
+        sumAvg = sum / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + sumAvg + " рублей");
     }
 
